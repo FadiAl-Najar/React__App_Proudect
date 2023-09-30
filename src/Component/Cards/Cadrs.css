@@ -1,7 +1,21 @@
-.parent_card {
-    display: flex;
-    justify-content: space-between;
+.card {
+    min-height: 200px;
+}
+
+.button {
     margin: 20px;
-    /* gap: 10px; */
-    flex-wrap: wrap;
+}
+
+.btn {
+    background-color: #b54507;
+    border: none;
+}
+
+.btn:hover {
+    background-color: #b54507;
+    opacity: 0.7;
+}
+
+.btn:active {
+    color: #b54507;
 }

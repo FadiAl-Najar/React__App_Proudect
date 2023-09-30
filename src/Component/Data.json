@@ -1,32 +1,88 @@
-[
+{
+  "categories": [
     {
-      "image_url": "https://www.themealdb.com/images/media/meals/bopa2i1683209167.jpg",
-      "title": "Grilled eggplant with coconut milk",
-      "description": ". Prepare the eggplants for grilling by pricking them all over with a fork. This is so it won’t burst during the grilling process as the natural water in it heats up. 2. Grill the eggplants, turning them over frequently to ensure even cooking. Grill until the skins are dark brown, even black and the eggplant is soft when you touch it. 3. Soak the grilled eggplant in a bowl of water to cool it down. Peel the skin off the eggplant. Place the whole eggplants in a shallow dish (my mom actually cuts the eggplant into small, bite-sized pieces). 4. In a small mixing bowl, mix together the coconut milk or cream, lemon powder, salt and hot pepper. Mix until the lemon powder and salt dissolve. Taste, then adjust the amount of lemon powder, salt and hot pepper to your liking. Pour the mixture over the eggplant. Sprinkle the green onions over the eggplant and coconut milk. Stir gently to combine.",
-      "category": "Main Course"
+      "idCategory": "1",
+      "strCategory": "Beef",
+      "strCategoryThumb": "https://www.themealdb.com/images/category/beef.png",
+      "strCategoryDescription": "Beef is the culinary name for meat from cattle, particularly skeletal muscle. Humans have been eating beef since prehistoric times.[1] Beef is a source of high-quality protein and essential nutrients.[2]"
     },
     {
-      "image_url": "https://www.themealdb.com/images/media/meals/xvsurr1511719182.jpg",
-      "title": "Apple & Blackberry Crumble",
-      "description": "Heat oven to 190C/170C fan/gas 5. Tip the flour and sugar into a large bowl. Add the butter, then rub into the flour using your fingertips to make a light breadcrumb texture. Do not overwork it or the crumble will become heavy. Sprinkle the mixture evenly over a baking sheet and bake for 15 mins or until lightly coloured. Meanwhile, for the compote, peel, core and cut the apples into 2cm dice. Put the butter and sugar in a medium saucepan and melt together over a medium heat. Cook for 3 mins until the mixture turns to a light caramel. Stir in the apples and cook for 3 mins. Add the blackberries and cinnamon, and cook for 3 mins more. Cover, remove from the heat, then leave for 2-3 mins to continue cooking in the warmth of the pan. To serve, spoon the warm fruit into an ovenproof gratin dish, top with the crumble mix, then reheat in the oven for 5-10 mins. Serve with vanilla ice cream.",
-      "category": "Desserts"
-    },
-        {
-      "image_url": "https://www.themealdb.com/images/media/meals/1549542994.jpg",
-      "title": "Salmon Avocado Salad",
-      "description": "Season the salmon, then rub with oil. Mix the dressing ingredients together. Halve, stone, peel and slice the avocados. Halve and quarter the cucumber lengthways, then cut into slices. Divide salad, avocado and cucumber between four plates, then drizzle with half the dressing. Heat a non-stick pan. Add the salmon and fry for 3-4 mins on each side until crisp but still moist inside. Put a salmon fillet on top of each salad and drizzle over the remaining dressing. Serve warm.",
-      "category": "Salads"
+      "idCategory": "2",
+      "strCategory": "Chicken",
+      "strCategoryThumb": "https://www.themealdb.com/images/category/chicken.png",
+      "strCategoryDescription": "Chicken is a type of domesticated fowl, a subspecies of the red junglefowl. It is one of the most common and widespread domestic animals, with a total population of more than 19 billion as of 2011.[1] Humans commonly keep chickens as a source of food (consuming both their meat and eggs) and, more rarely, as pets."
     },
     {
-      "image_url": "https://www.themealdb.com/images/media/meals/1529444830.jpg",
-      "title": "Beef Lo Mein",
-      "description": "STEP 1 - MARINATING THE BEEF In a bowl, add the beef, salt, 1 pinch white pepper, 1 Teaspoon sesame seed oil, 1/2 egg, corn starch,1 Tablespoon of oil and mix together. STEP 2 - BOILING THE THE NOODLES In a 6 qt pot add your noodles to boiling water until the noodles are submerged and boil on high heat for 10 seconds. After your noodles is done boiling strain and cool with cold water. STEP 3 - STIR FRY Add 2 Tablespoons of oil, beef and cook on high heat untill beef is medium cooked. Set the cooked beef aside In a wok add 2 Tablespoon of oil, onions, minced garlic, minced ginger, bean sprouts, mushrooms, peapods and 1.5 cups of water or until the vegetables are submerged in water. Add the noodles to wok To make the sauce, add oyster sauce, 1 pinch white pepper, 1 teaspoon sesame seed oil, sugar, and 1 Teaspoon of soy sauce. Next add the beef to wok and stir-fry",
-      "category": "Main Course"
+      "idCategory": "3",
+      "strCategory": "Dessert",
+      "strCategoryThumb": "https://www.themealdb.com/images/category/dessert.png",
+      "strCategoryDescription": "Dessert is a course that concludes a meal. The course usually consists of sweet foods, such as confections dishes or fruit, and possibly a beverage such as dessert wine or liqueur, however in the United States it may include coffee, cheeses, nuts, or other savory items regarded as a separate course elsewhere. In some parts of the world, such as much of central and western Africa, and most parts of China, there is no tradition of a dessert course to conclude a meal.\r\n\r\nThe term dessert can apply to many confections, such as biscuits, cakes, cookies, custards, gelatins, ice creams, pastries, pies, puddings, and sweet soups, and tarts. Fruit is also commonly found in dessert courses because of its naturally occurring sweetness. Some cultures sweeten foods that are more commonly savory to create desserts."
     },
     {
-      "image_url": "https://www.themealdb.com/images/media/meals/xxtsvx1511814083.jpg",
-      "title": "Split Pea Soup",
-      "description": "Put the gammon in a very large pan with 2 litres water and bring to the boil. Remove from the heat and drain off the water – this helps to get rid of some of the saltiness. Recover with 2 litres cold water and bring to the boil again. Put everything but the frozen peas into the pan and bring to the boil. Reduce to a simmer and cook for 1½-2½ hrs, topping up the water as and when you need to, to a similar level it started at. As the ham cooks and softens, you can halve it if you want, so it is all submerged under the liquid. When the ham is tender enough to pull into shreds, it is ready. Lift out the ham, peel off and discard the skin. While it is still hot (wear a clean pair of rubber gloves), shred the meat. Remove bay from the soup and stir in the frozen peas. Simmer for 1 min, then blend until smooth. Add a splash of water if too thick, and return to the pan to heat through if it has cooled, or if you are making ahead. When you are ready to serve, mix the hot soup with most of the ham – gently reheat if made ahead. Serve in bowls with the remaining ham scattered on top, and eat with crusty bread and butter.",
-      "category": "Appetizers"
+      "idCategory": "4",
+      "strCategory": "Lamb",
+      "strCategoryThumb": "https://www.themealdb.com/images/category/lamb.png",
+      "strCategoryDescription": "Lamb, hogget, and mutton are the meat of domestic sheep (species Ovis aries) at different ages.\r\n\r\nA sheep in its first year is called a lamb, and its meat is also called lamb. The meat of a juvenile sheep older than one year is hogget; outside the USA this is also a term for the living animal. The meat of an adult sheep is mutton, a term only used for the meat, not the living animals. The term mutton is almost always used to refer to goat meat in the Indian subcontinent.\r\n\r\n"
+    },
+    {
+      "idCategory": "5",
+      "strCategory": "Miscellaneous",
+      "strCategoryThumb": "https://www.themealdb.com/images/category/miscellaneous.png",
+      "strCategoryDescription": "General foods that don't fit into another category"
+    },
+    {
+      "idCategory": "6",
+      "strCategory": "Pasta",
+      "strCategoryThumb": "https://www.themealdb.com/images/category/pasta.png",
+      "strCategoryDescription": "Pasta is a staple food of traditional Italian cuisine, with the first reference dating to 1154 in Sicily.\r\n\r\nAlso commonly used to refer to the variety of pasta dishes, pasta is typically a noodle made from an unleavened dough of a durum wheat flour mixed with water or eggs and formed into sheets or various shapes, then cooked by boiling or baking. As an alternative for those wanting a different taste, or who need to avoid products containing gluten, some pastas can be made using rice flour in place of wheat.[3][4] Pastas may be divided into two broad categories, dried (pasta secca) and fresh (pasta fresca)."
+    },
+    {
+      "idCategory": "7",
+      "strCategory": "Pork",
+      "strCategoryThumb": "https://www.themealdb.com/images/category/pork.png",
+      "strCategoryDescription": "Pork is the culinary name for meat from a domestic pig (Sus scrofa domesticus). It is the most commonly consumed meat worldwide,[1] with evidence of pig husbandry dating back to 5000 BC. Pork is eaten both freshly cooked and preserved. Curing extends the shelf life of the pork products. Ham, smoked pork, gammon, bacon and sausage are examples of preserved pork. Charcuterie is the branch of cooking devoted to prepared meat products, many from pork.\r\n\r\nPork is the most popular meat in Eastern and Southeastern Asia, and is also very common in the Western world, especially in Central Europe. It is highly prized in Asian cuisines for its fat content and pleasant texture. Consumption of pork is forbidden by Jewish and Muslim dietary law, a taboo that is deeply rooted in tradition, with several suggested possible causes. The sale of pork is limited in Israel and illegal in certain Muslim countries."
+    },
+    {
+      "idCategory": "8",
+      "strCategory": "Seafood",
+      "strCategoryThumb": "https://www.themealdb.com/images/category/seafood.png",
+      "strCategoryDescription": "Seafood is any form of sea life regarded as food by humans. Seafood prominently includes fish and shellfish. Shellfish include various species of molluscs, crustaceans, and echinoderms. Historically, sea mammals such as whales and dolphins have been consumed as food, though that happens to a lesser extent in modern times. Edible sea plants, such as some seaweeds and microalgae, are widely eaten as seafood around the world, especially in Asia (see the category of sea vegetables). In North America, although not generally in the United Kingdom, the term \"seafood\" is extended to fresh water organisms eaten by humans, so all edible aquatic life may be referred to as seafood. For the sake of completeness, this article includes all edible aquatic life."
+    },
+    {
+      "idCategory": "9",
+      "strCategory": "Side",
+      "strCategoryThumb": "https://www.themealdb.com/images/category/side.png",
+      "strCategoryDescription": "A side dish, sometimes referred to as a side order, side item, or simply a side, is a food item that accompanies the entrée or main course at a meal. Side dishes such as salad, potatoes and bread are commonly used with main courses throughout many countries of the western world. New side orders introduced within the past decade[citation needed], such as rice and couscous, have grown to be quite popular throughout Europe, especially at formal occasions (with couscous appearing more commonly at dinner parties with Middle Eastern dishes)."
+    },
+    {
+      "idCategory": "10",
+      "strCategory": "Starter",
+      "strCategoryThumb": "https://www.themealdb.com/images/category/starter.png",
+      "strCategoryDescription": "An entrée in modern French table service and that of much of the English-speaking world (apart from the United States and parts of Canada) is a dish served before the main course of a meal; it may be the first dish served, or it may follow a soup or other small dish or dishes. In the United States and parts of Canada, an entrée is the main dish or the only dish of a meal.\r\n\r\nHistorically, the entrée was one of the stages of the “Classical Order” of formal French table service of the 18th and 19th centuries. It formed a part of the “first service” of the meal, which consisted of potage, hors d’œuvre, and entrée (including the bouilli and relevé). The “second service” consisted of roast (rôti), salad, and entremets (the entremets sometimes being separated into a “third service” of their own). The final service consisted only of dessert.[3]:3–11 :13–25"
+    },
+    {
+      "idCategory": "11",
+      "strCategory": "Vegan",
+      "strCategoryThumb": "https://www.themealdb.com/images/category/vegan.png",
+      "strCategoryDescription": "Veganism is both the practice of abstaining from the use of animal products, particularly in diet, and an associated philosophy that rejects the commodity status of animals.[b] A follower of either the diet or the philosophy is known as a vegan (pronounced /ˈviːɡən/ VEE-gən). Distinctions are sometimes made between several categories of veganism. Dietary vegans (or strict vegetarians) refrain from consuming animal products, not only meat but also eggs, dairy products and other animal-derived substances.[c] The term ethical vegan is often applied to those who not only follow a vegan diet but extend the philosophy into other areas of their lives, and oppose the use of animals for any purpose.[d] Another term is environmental veganism, which refers to the avoidance of animal products on the premise that the harvesting or industrial farming of animals is environmentally damaging and unsustainable."
+    },
+    {
+      "idCategory": "12",
+      "strCategory": "Vegetarian",
+      "strCategoryThumb": "https://www.themealdb.com/images/category/vegetarian.png",
+      "strCategoryDescription": "Vegetarianism is the practice of abstaining from the consumption of meat (red meat, poultry, seafood, and the flesh of any other animal), and may also include abstention from by-products of animal slaughter.\r\n\r\nVegetarianism may be adopted for various reasons. Many people object to eating meat out of respect for sentient life. Such ethical motivations have been codified under various religious beliefs, as well as animal rights advocacy. Other motivations for vegetarianism are health-related, political, environmental, cultural, aesthetic, economic, or personal preference. There are variations of the diet as well: an ovo-lacto vegetarian diet includes both eggs and dairy products, an ovo-vegetarian diet includes eggs but not dairy products, and a lacto-vegetarian diet includes dairy products but not eggs. A vegan diet excludes all animal products, including eggs and dairy. Some vegans also avoid other animal products such as beeswax, leather or silk clothing, and goose-fat shoe polish."
+    },
+    {
+      "idCategory": "13",
+      "strCategory": "Breakfast",
+      "strCategoryThumb": "https://www.themealdb.com/images/category/breakfast.png",
+      "strCategoryDescription": "Breakfast is the first meal of a day. The word in English refers to breaking the fasting period of the previous night. There is a strong likelihood for one or more \"typical\", or \"traditional\", breakfast menus to exist in most places, but their composition varies widely from place to place, and has varied over time, so that globally a very wide range of preparations and ingredients are now associated with breakfast."
+    },
+    {
+      "idCategory": "14",
+      "strCategory": "Goat",
+      "strCategoryThumb": "https://www.themealdb.com/images/category/goat.png",
+      "strCategoryDescription": "The domestic goat or simply goat (Capra aegagrus hircus) is a subspecies of C. aegagrus domesticated from the wild goat of Southwest Asia and Eastern Europe. The goat is a member of the animal family Bovidae and the subfamily Caprinae, meaning it is closely related to the sheep. There are over 300 distinct breeds of goat. Goats are one of the oldest domesticated species of animal, and have been used for milk, meat, fur and skins across much of the world. Milk from goats is often turned into goat cheese."
     }
-]
+  ]
+}

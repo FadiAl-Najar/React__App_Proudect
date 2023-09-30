@@ -1,0 +1,15 @@
+
+.parent_card {
+    display: flex;
+    margin: 50px 0 50px 19px;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+.card {
+    min-height: 200px;
+}
+
+.button {
+    margin: 20px;
+}
