@@ -2,7 +2,7 @@ import Button from "react-bootstrap/Button";
 import Card from "react-bootstrap/Card";
 import { useState } from "react";
 import Modal from "react-bootstrap/Modal";
-import "/home/fadi/app_proudect/src/Component/Cards/Cadrs.css";
+import "./Cadrs.css";
 
 function Cards(props) {
   let [show, setShow] = useState(false);

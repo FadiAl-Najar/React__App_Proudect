@@ -1,32 +1,85 @@
-// import data from "../Data.json";
 import CardComponent from "../Cards/Cards";
-// import Button from "react-bootstrap/Button";
-// import Form from "react-bootstrap/Form";
+import { useEffect, useState } from "react";
 import "./Main.css";
-// import { useState } from "react";
+import Button from "react-bootstrap/Button";
+import Form from "react-bootstrap/Form";
+import Nav from "react-bootstrap/Nav";
+import Browse from "../Browse/Browse";
 
-function Main(props) {
-  // console.log(props.items);
+function Main() {
+  let [items, setItems] = useState([]);
+  let [showError, setshowError] = useState(false);
+
+  let getDataFromAPI = async () => {
+    let url = "https://www.themealdb.com/api/json/v1/1/search.php?f=m";
+    try {
+      let response = await fetch(url);
+      let result = await response.json();
+      console.log(result.meals);
+      setItems(result.meals);
+    } catch (error) {
+      console.log("Fetching Error data:", error);
+    }
+  };
+
+  let handleSearchInput = (e) => {
+    e.preventDefault();
+    let getValue = e.target.search.value;
+    const filterItems = items.filter((item) => {
+      return item.strMeal.toLowerCase().includes(getValue.toLowerCase());
+    });
+    if (filterItems.length > 0) {
+      setItems(filterItems);
+    } else {
+      setshowError(true);
+    }
+  };
+
+  useEffect(() => {
+    getDataFromAPI();
+  }, []);
+
   return (
-    <>
-  <div className="parent_card">
-    {props.items &&
-      typeof props.items === "object" &&
-      Object.entries(props.items).map(([key, item]) => {
-        console.log(typeof item);
-        return (
-          <CardComponent
-            key={item.idCategory}
-            id={item.idCategory}
-            image={item.strCategoryThumb}
-            title={item.strCategory}
-            description={item.strCategoryDescription}
+    <main>
+      <div className="section_search">
+        <Form className="d-flex" onSubmit={handleSearchInput}>
+          <Form.Control
+            type="search"
+            placeholder="Search"
+            className="me-2"
+            aria-label="Search"
+            name="search"
           />
-        );
-      })}
-  </div>;
-  </>
-  )
+          <Button variant="outline-success" type="submit">
+            Search
+          </Button>
+        </Form>
+      </div>
+      <div className="parent_card">
+        {showError ? (
+          <p>
+            Not found the result try another one! <br />{" "}
+            <Nav.Link className="go_back" href="/">
+              Go Back
+            </Nav.Link>
+          </p>
+        ) : (
+          items.map((item) => {
+            return (
+                <CardComponent
+                  key={item.idMeal}
+                  id={item.idMeal}
+                  image={item.strMealThumb}
+                  title={item.strMeal}
+                  description={item.strInstructions}
+                />
+            );
+          })
+        )}
+      </div>
+     <Browse data={items} />
+    </main>
+  );
 }
 
 export default Main;

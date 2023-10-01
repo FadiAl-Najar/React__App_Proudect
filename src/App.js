@@ -2,7 +2,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import Header from "./Component/Header/Header";
 import Main from "./Component/Main/Main";
 import { Routes, Route } from "react-router-dom";
-import Favorite from "./Component/Favorite/Favorite.js";
+import Browse from "./Component/Browse/Browse";
 import "./App.css";
 
 function App() {
@@ -12,7 +12,7 @@ function App() {
 
       <Routes>
         <Route path="/" element={<Main />}></Route>
-        <Route path="/favorite" element={<Favorite />}></Route>
+        <Route path="/browse" element={<Browse />}></Route>
       </Routes>
     </>
   );
