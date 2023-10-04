@@ -7,18 +7,19 @@ function Header() {
 
   return (
     <>
-      <Navbar expand="lg" className="bg-body-tertiary">
-        <Container fluid>
-          <Navbar.Brand href="/">Recipe Food</Navbar.Brand>
+      <Navbar expand="lg" className="bg-body-tertiary style_parent">
+        <Container fluid className="style_nav" >
+          <Navbar.Brand href="/" style={{ color: "white" }}>Recipe Food</Navbar.Brand>
           <Navbar.Toggle aria-controls="navbarScroll" />
           <Navbar.Collapse id="navbarScroll">
             <Nav
               className="me-auto my-2 my-lg-0"
-              style={{ maxHeight: "100px" }}
+              style={{ maxHeight: "100px"}}
               navbarScroll
             >
-              <Nav.Link href="/">Home</Nav.Link>
-              <Nav.Link href="/browse">Browse</Nav.Link>
+              <Nav.Link href="/" style={{ color: "white" }} className="rout">Home</Nav.Link>
+              <Nav.Link href="/browse" style={{ color: "white" }} className="rout">Browse</Nav.Link>
+              <Nav.Link href="/favorite" style={{ color: "white" }} className="rout">Favorite</Nav.Link>
             </Nav>           
           </Navbar.Collapse>
         </Container>

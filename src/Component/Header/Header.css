@@ -1,2 +1,18 @@
+.style_parent {
+    padding: 0;
+    margin: 0;
+}
+.style_nav {
+    background-color: #b54507;
+    /* color: aliceblue; */
+    font-size: 20px;
+    font-weight: 700;
+    font-family: sans-serif;
+    padding: 15px;
+}
+
+.rout:hover {
+    opacity: 0.7;
+}
 
 

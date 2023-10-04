@@ -9,6 +9,24 @@ function Cards(props) {
 
   let handleShow = () => setShow(!show);
 
+  let handleSaveToLocalStorage = () => {
+    let saveItem = [];
+
+    if (localStorage.getItem("favorite")) {
+      saveItem = JSON.parse(localStorage.getItem("favorite"));
+    }
+
+    let data = {
+      name: props.title,
+      image: props.image,
+      description: props.description,
+    };
+    saveItem.push(data);
+
+    let stringData = JSON.stringify(saveItem);
+    localStorage.setItem("favorite", stringData);
+  };
+
   return (
     <>
       <Card style={{ width: "18rem" }} className="card" key={props.id}>
@@ -18,6 +36,9 @@ function Cards(props) {
         </Card.Body>
         <div className="button mt-auto">
           <Button onClick={handleShow}>Show Description</Button>
+          <Button onClick={handleSaveToLocalStorage}>Add to</Button>
+          {/* <Button onClick={handleSaveToLocalStorage}>Add to</Button> */}
+
         </div>
       </Card>
 

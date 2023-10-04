@@ -1,10 +1,9 @@
 import CardComponent from "../Cards/Cards";
 import { useEffect, useState } from "react";
-import "./Main.css";
 import Button from "react-bootstrap/Button";
 import Form from "react-bootstrap/Form";
 import Nav from "react-bootstrap/Nav";
-import Browse from "../Browse/Browse";
+import "./Main.css";
 
 function Main() {
   let [items, setItems] = useState([]);
@@ -15,7 +14,7 @@ function Main() {
     try {
       let response = await fetch(url);
       let result = await response.json();
-      console.log(result.meals);
+      // console.log(result.meals);
       setItems(result.meals);
     } catch (error) {
       console.log("Fetching Error data:", error);
@@ -64,10 +63,10 @@ function Main() {
             </Nav.Link>
           </p>
         ) : (
-          items.map((item) => {
+          items.map((item, index) => {
             return (
                 <CardComponent
-                  key={item.idMeal}
+                  key={index}
                   id={item.idMeal}
                   image={item.strMealThumb}
                   title={item.strMeal}
@@ -77,7 +76,6 @@ function Main() {
           })
         )}
       </div>
-     <Browse data={items} />
     </main>
   );
 }
