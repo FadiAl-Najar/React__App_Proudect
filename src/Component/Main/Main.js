@@ -71,6 +71,7 @@ function Main() {
                   image={item.strMealThumb}
                   title={item.strMeal}
                   description={item.strInstructions}
+                  location={'Main'}
                 />
             );
           })

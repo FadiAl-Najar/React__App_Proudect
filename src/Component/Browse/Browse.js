@@ -75,25 +75,27 @@ function Browse() {
       {
         <div className="parent">
           {filteredItems.length > 0
-            ? filteredItems.map((item) => {
+            ? filteredItems.map((item, index) => {
                 return (
                   <CardComponent
-                    key={item.idMeal}
+                    key={index}
                     id={item.idMeal}
                     image={item.strMealThumb}
                     title={item.strCategory}
                     description={item.strInstructions}
+                    location={'Browse'}
                   />
                 );
               })
-            : selectedCategory.map((item) => {
+            : selectedCategory.map((item, index) => {
                 return (
                   <CardComponent
-                    key={item.idCategory}
+                    key={index}
                     id={item.idCategory}
                     image={item.strCategoryThumb}
                     title={item.strCategory}
                     description={item.strCategoryDescription}
+                    location={'Browse'}
                   />
                 );
               })}

@@ -1,12 +1,13 @@
 import Button from "react-bootstrap/Button";
 import Card from "react-bootstrap/Card";
-import { useState } from "react";
+import {useState } from "react";
 import Modal from "react-bootstrap/Modal";
 import "./Cadrs.css";
 
 function Cards(props) {
   let [show, setShow] = useState(false);
-
+  let location = props.location;
+  // console.log(props.handleDeleteFromLocalStorage);
   let handleShow = () => setShow(!show);
 
   let handleSaveToLocalStorage = () => {
@@ -26,7 +27,7 @@ function Cards(props) {
     let stringData = JSON.stringify(saveItem);
     localStorage.setItem("favorite", stringData);
   };
-
+ 
   return (
     <>
       <Card style={{ width: "18rem" }} className="card" key={props.id}>
@@ -35,10 +36,20 @@ function Cards(props) {
           <Card.Title>{props.title}</Card.Title>
         </Card.Body>
         <div className="button mt-auto">
-          <Button onClick={handleShow}>Show Description</Button>
-          <Button onClick={handleSaveToLocalStorage}>Add to</Button>
-          {/* <Button onClick={handleSaveToLocalStorage}>Add to</Button> */}
-
+          {location === "Main" || location === "Browse" ? (
+            <>
+              <Button onClick={handleShow}>Show Recipe</Button>
+              <Button onClick={handleSaveToLocalStorage}>Add to</Button>
+            </>
+          ) : null}
+          {location === "Favorite" ? (
+            <>
+              <Button onClick={handleShow}>Show Recipe</Button>
+              <Button onClick={props.handleDeleteFromLocalStorage}>
+                Delete
+              </Button>
+            </>
+          ) : null}
         </div>
       </Card>
 

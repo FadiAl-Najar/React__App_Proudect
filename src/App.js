@@ -3,7 +3,7 @@ import Header from "./Component/Header/Header";
 import Main from "./Component/Main/Main";
 import { Routes, Route } from "react-router-dom";
 import Browse from "./Component/Browse/Browse";
-import Favorite from "./Favorite/Favorite";
+import Favorite from "./Component/Favorite/Favorite";
 import "./App.css";
 
 function App() {
